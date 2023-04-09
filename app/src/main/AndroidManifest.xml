@@ -15,7 +15,7 @@
             android:name=".notebook.AddNotesActivity"
             android:exported="false" />
         <activity
-            android:name=".notebook.NotesActivity"
+            android:name=".quiz.QuizActivity"
             android:exported="false" />
         <activity
             android:name=".quiz.QuizResultActivity"
@@ -24,7 +24,7 @@
             android:name=".calculator.CalculatorActivity"
             android:exported="false" />
         <activity
-            android:name=".quiz.QuizActivity"
+            android:name=".notebook.NotesActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
